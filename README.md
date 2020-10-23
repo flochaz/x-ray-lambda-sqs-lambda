@@ -1,14 +1,5 @@
-# Welcome to your CDK TypeScript project!
+# X_Ray in case of Lambda => SQS => Lambda
 
-This is a blank project for TypeScript development with CDK.
+CDK app based on https://docs.aws.amazon.com/solutions/latest/constructs/aws-lambda-sqs-lambda.html solution construct showing a workaround https://github.com/aws/aws-xray-sdk-node/issues/208 issue.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+To get ![image](trace.png)
