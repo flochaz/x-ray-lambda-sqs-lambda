@@ -14,9 +14,7 @@ cdk bootstrap
 npm install
 npm run build && npm run cdk synth  && npm run cdk deploy 
 ```
-
-1. disable X-Ray manually for consumer lambda (the one finishing by 'sqltolambda')
-
+c
 1. send a test event (the content of it does not matter) from producer lambda
 
 1. check service lens map or xray
