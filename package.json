@@ -22,7 +22,9 @@
   },
   "dependencies": {
     "@aws-cdk/core": "1.74.0",
+    "@aws-solutions-constructs/aws-lambda-sns": "^1.74.0",
     "@aws-solutions-constructs/aws-lambda-sqs-lambda": "1.74.0",
+    "@aws-solutions-constructs/aws-sns-sqs": "^1.74.0",
     "source-map-support": "^0.5.16"
   }
 }
